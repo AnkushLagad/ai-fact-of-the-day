@@ -5,10 +5,6 @@ Function URL that calls Amazon Bedrock (Nova Lite) to generate a fresh,
 interesting fact every time someone visits, and returns it as a simple
 styled HTML page.
 
-## Live app
-
-https://tchtmxyu2d5xzxcqu5cgwh7tui0twgsb.lambda-url.us-west-2.on.aws/
-
 Refresh the page for a new, live-generated fact each time.
 
 ## How it works
