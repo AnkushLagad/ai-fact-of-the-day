@@ -5,18 +5,6 @@ Function URL that calls Amazon Bedrock (Nova Lite) to generate a fresh,
 interesting fact every time someone visits, and returns it as a simple
 styled HTML page.
 
-## How it works
-
-1. A visitor opens the Function URL in a browser (a GET request arrives).
-2. AWS Lambda runs the handler function.
-3. The handler calls Amazon Bedrock (Nova Lite) with a prompt asking for a
-   short, interesting, verifiable fact from a randomly chosen category.
-4. The response is wrapped in a small styled HTML page and returned
-   directly as the HTTP response - no separate frontend or server needed.
-
-Every request generates a genuinely new fact live via Bedrock - nothing is
-pre-written or cached.
-
 ## AWS services used
 
 - **AWS Lambda** - runs the handler code and exposes it via a public
