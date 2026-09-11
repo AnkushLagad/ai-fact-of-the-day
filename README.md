@@ -5,8 +5,6 @@ Function URL that calls Amazon Bedrock (Nova Lite) to generate a fresh,
 interesting fact every time someone visits, and returns it as a simple
 styled HTML page.
 
-Refresh the page for a new, live-generated fact each time.
-
 ## How it works
 
 1. A visitor opens the Function URL in a browser (a GET request arrives).
